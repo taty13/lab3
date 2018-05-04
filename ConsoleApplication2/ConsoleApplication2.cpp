@@ -49,6 +49,7 @@ int main(int argc, char * argv[])
 		fflush(stdout);
 
 		MPI_Barrier(MPI_COMM_WORLD);
+		printf("change done");
 
 	}
 
